@@ -1,6 +1,5 @@
 var express = require('express');
 var Flickr = require('./Route/AppModule');
-// var async = require('async');
 var http = require('http');
 var app = express();
 var server = http.Server(app);
@@ -18,9 +17,9 @@ app.get('/', function(req, res) {
 	res.sendFile(__dirname + '/index.html');
 });
 
-// Define ApiModule Acessible And Carries Parameter
-// app.get('/Flickr/:parameterflickrtags', Flickr.FlickrApi);
-// app.get('/Foursquare/:foursquareparameter',Flickr.FourSquareApi);
-// app.get('/FoursquareID/:foursquareidparameter',Flickr.FourSquareApiByID);
+Define ApiModule Acessible And Carries Parameter
+app.get('/Flickr/:parameterflickrtags', Flickr.FlickrApi);
+app.get('/Foursquare/:foursquareparameter',Flickr.FourSquareApi);
+app.get('/FoursquareID/:foursquareidparameter',Flickr.FourSquareApiByID);
 
 
