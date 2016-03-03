@@ -3,9 +3,6 @@ var http = require('http');
 var app = express();
 var server = http.Server(app);
 
-server.listen((process.env.PORT || 80), function(){
-  console.log('listening on *:80');
-});
 // Set Folder AS Root Folder
 app.use(express.static('Images'));
 app.use(express.static('Script'));
