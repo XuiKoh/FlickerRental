@@ -1,7 +1,7 @@
 {
   "name": "twittersentiment",
   "version": "1.0.0",
-  "main": "server.js",
+  "main": "2.js",
   "dependencies": {
     "emotional": "0.0.3",
     "epoch-charting": "^0.8.3",
@@ -14,7 +14,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node xuiserver.js"
+    "start": "node 2.js"
   },
   "repository": {
     "type": "git",
