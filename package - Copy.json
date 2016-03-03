@@ -1,13 +1,10 @@
 {
-  "name": "flick",
+  "name": "flicker",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.13.3",
-    "async": "^1.5.2",
-    "http": "^0.0.0",
-    "request": "^2.61.0"
+    "http": "^0.0.0"
   },
   "devDependencies": {},
   "scripts": {
@@ -23,5 +20,6 @@
   "bugs": {
     "url": "https://github.com/XuiKoh/FlickerRental/issues"
   },
-  "homepage": "https://github.com/XuiKoh/FlickerRental#readme"
+  "homepage": "https://github.com/XuiKoh/FlickerRental#readme",
+  "description": ""
 }
