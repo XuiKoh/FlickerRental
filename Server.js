@@ -17,7 +17,7 @@ app.get('/', function(req, res) {
 	res.sendFile(__dirname + '/index.html');
 });
 
-Define ApiModule Acessible And Carries Parameter
+//Define ApiModule Acessible And Carries Parameter
 app.get('/Flickr/:parameterflickrtags', Flickr.FlickrApi);
 app.get('/Foursquare/:foursquareparameter',Flickr.FourSquareApi);
 app.get('/FoursquareID/:foursquareidparameter',Flickr.FourSquareApiByID);
