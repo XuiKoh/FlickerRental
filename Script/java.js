@@ -512,7 +512,7 @@ $(window).load(function() {
   // loadlocalhostFlickrAPIScript("House,Rent,Brisbane");
   // loadlocalhostFlickrAPIScript("House,Rent,Floorplan");
   // loadlocalhostFlickrAPIScript("House,Rent");
-  loadlocalhostFlickrAPIScript("House,Brisbane");
+  // loadlocalhostFlickrAPIScript("House,Brisbane");
   //loadlocalhostFlickrAPIScript("Rent");
  // loadlocalhostFlickrAPIScript("Indoor");
  // loadlocalhostFlickrAPIScript("Outdoor");
