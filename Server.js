@@ -1,7 +1,7 @@
-var express = require('express');
-var http = require('http');
-var app = express();
-var server = http.Server(app);
+var express = require('express')，
+	http = require('http')，
+	app = express()，
+	server = http.Server(app);
 
 // Set Folder AS Root Folder
 app.use(express.static('Images'));
