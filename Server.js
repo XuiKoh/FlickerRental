@@ -1,6 +1,7 @@
 var express = require('express');
 var Flickr = require('./Route/AppModule');
 var async = require('async');
+var http = require('http');
 var app = express();
 var server = http.Server(app);
 
