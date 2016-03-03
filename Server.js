@@ -9,13 +9,13 @@ server.listen((process.env.PORT || 80), function(){
   console.log('listening on *:80');
 });
 // Set Folder AS Root Folder
-app.use(express.static(__dirname + '/Images'));
-app.use(express.static(__dirname + '/Script'));
-app.use(express.static(__dirname + '/View'));
+app.use(express.static('Images'));
+app.use(express.static('Script'));
+app.use(express.static('View'));
 
 // Set HomePage
 app.get('/', function(req, res) {
-	res.sendFile('index.html');
+	res.sendFile(__dirname + '/index.html');
 });
 
 // Define ApiModule Acessible And Carries Parameter
