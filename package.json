@@ -1,6 +1,7 @@
 {
   "name": "flick",
   "version": "1.0.0",
+  "description": "",
   "main": "server.js",
   "dependencies": {
     "express": "^4.13.3",
@@ -20,6 +21,5 @@
   "bugs": {
     "url": "https://github.com/XuiKoh/FlickerRental/issues"
   },
-  "homepage": "https://github.com/XuiKoh/FlickerRental#readme",
-  "description": ""
+  "homepage": "https://github.com/XuiKoh/FlickerRental#readme"
 }
