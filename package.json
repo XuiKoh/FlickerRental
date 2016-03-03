@@ -1,7 +1,7 @@
 {
   "name": "FlickerRental",
   "version": "1.0.0",
-  "main": "Server.js",
+  "main": "server.js",
   "dependencies": {
     "express": "^4.13.3",
     "http": "^0.0.0"
@@ -9,7 +9,7 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node Server.js"
+    "start": "nodejs server.js"
   },
   "repository": {
     "type": "git",
