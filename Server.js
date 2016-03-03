@@ -9,12 +9,17 @@ server.listen((process.env.PORT || 80), function(){
 // Set Folder AS Root Folder
 app.use(express.static('Images'));
 app.use(express.static('Script'));
-app.use(express.static('View'));
+app.use(express.static('index'));
+
+server.listen((process.env.PORT || 80), function(){
+  console.log('listening on *:80');
+});
 
 // Set HomePage
-app.get('/', function(req, res) {
-	res.sendFile(__dirname + '/index.html');
+app.get('/', function (req, res) {
+  res.sendFile(__dirname + '/index.html');
 });
+
 
 //Define ApiModule Acessible And Carries Parameter
 // app.get('/Flickr/:parameterflickrtags', Flickr.FlickrApi);
