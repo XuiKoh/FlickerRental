@@ -9,10 +9,10 @@ var Twitter = require('node-tweet-stream'),
 	fs = require('fs'),
 	os = require('os');
 
-app.use(express.static('Script'));
+app.use(express.static('js'));
 app.use(express.static('Image'));
 app.use(express.static('index'));
-
+app.use(express.static('style'));
 server.listen((process.env.PORT || 80), function(){
   console.log('listening on *:80');
 });
