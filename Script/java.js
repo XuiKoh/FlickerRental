@@ -73,7 +73,7 @@ function loadflickrcallback(rsp) {
     geocodeAddress(geocoder, map , specifyPhoto , photo , thumbnail );
     times ++;
   }
-  document.writeln(HousesOtherPhotos);
+  //document.writeln(HousesOtherPhotos);
 }
 
 function LoadFlickFloorPlanCallBack(rsp) {
