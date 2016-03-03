@@ -3,12 +3,7 @@ var Twitter = require('node-tweet-stream'),
 	http = require('http'),
 	app = express(),
 	server = http.Server(app),
-	io = require('socket.io')(server, {pingTimeout: 180000}),
-	emotional = require('emotional'),
-	nStore = require('nstore'),
-	fs = require('fs'),
-	Flickr = require('./Route/AppModule'),
-	os = require('os');
+	Flickr = require('./Route/AppModule');
 
 app.use(express.static('js'));
 app.use(express.static('Image'));
